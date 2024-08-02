@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.page1 {
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 9%;
+    background: rgb(0, 0, 0);
+
+}
+
+.logobox {
+    display: flex;
+    align-items: center;
+}
+
+.logobox p {
+    font-size: 20px;
+}
+
+header .logo {
+    height: 59px;
+    margin-right: 15px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    margin-left: 60px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    font-size: 20px;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+header .menu img {
+    height: 20px;
+}
+
+
+.gymintro {
+    padding: 40px 15%;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(0, 0, 0);
+
+}
+
+.gymbuttons {
+    padding-top: 20px;
+
+}
+
+.gymbuttons button {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 7px 9px;
+    transition: all .55s ease;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.gymbuttons button:hover {
+    background: transparent;
+    color: white;
+    transform: translate(5px, -5px);
+    border: 1px solid white;
+}
+
+.gymintro .text {
+    font-size: 40px;
+}
+
+.gymintro img {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 80vh;
+}
+
+.reg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(AkhilRavipatiImg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Registrationform {
+    background-color: rgb(28, 28, 28);
+    max-width: 430px;
+    width: 100%;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.Registrationform form,
+.Registrationform .input-box input,
+.Registrationform .input-box-button input,
+.Registrationform input {
+    color: rgb(15, 14, 14);
+    font-size: 17px;
+}
+
+.Registrationform h2,
+.Registrationform form,
+.Registrationform .input-box input,
+.Registrationform h4,
+.Registrationform .input-box-button input,
+.Registrationform input,
+.Registrationform input::placeholder {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Registrationform h2 {
+    margin-left: 10px;
+}
+
+.Registrationform form {
+    margin-top: 30 px;
+}
+
+.Registrationform form .input-box {
+    height: 52px;
+    margin: 10px;
+
+}
+
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.Registrationform input::placeholder,
+.Registrationform input {
+    padding-left: 10px;
+}
+
+.Registrationform form .tc {
+    display: flex;
+}
+
+.Registrationform form .tc input {
+    margin: 10px;
+}
+
+.Registrationform form .input-box-button {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Registrationform form .input-box-button input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 100%;
+    font-size: 17px;
+    color: black;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.Registrationform form .input-box-button input:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.login h3 {
+    margin: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal
+}
